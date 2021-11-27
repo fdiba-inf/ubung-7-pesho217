@@ -6,7 +6,7 @@ public class NumberCounter {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 
-        System.out.print("Enter number count: ");
+        
         int numberCount = input.nextInt();
 
         int[] numbers = new int[numberCount];
@@ -16,7 +16,7 @@ public class NumberCounter {
             numbers[index] = input.nextInt();
         }
 
-        System.out.print("Search for number: ");
+        
         int number = input.nextInt();
         int numberOccurrences = countNumberOccurrences(number,  numbers);
 

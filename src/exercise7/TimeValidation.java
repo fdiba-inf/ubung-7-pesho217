@@ -25,7 +25,7 @@ public class TimeValidation {
 
 
     public static boolean areHoursValid(int hours) {
-       if(hours >= 0 && hours <= 24){
+       if(hours > 0 && hours < 24){
         return true;
        }else{
          return false;
